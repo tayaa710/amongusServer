@@ -2,6 +2,8 @@ const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
 const { fetchVideos } = require("./utils/fetchVideos");
+const { fetchAllTheRolesMod } = require("./utils/fetchAllTheRolesMod");
+// Import fetchOtherRolesMod dynamically
 const fs = require("fs");
 const path = require("path");
 const app = express();
@@ -14,9 +16,26 @@ let videoDataCache = null;
 let videoDataTimestamp = 0;
 let sheetDataCache = null;
 let sheetDataTimestamp = 0;
+let rolesDataCache = null;
+let rolesDataTimestamp = 0;
+let theOtherRolesDataCache = null;
+let theOtherRolesTimestamp = 0;
 
-// Cache expiry time (1 hour)
-const CACHE_EXPIRY = 60*60*1000;
+// Cache expiry time (48 hours = 2 days)
+const CACHE_EXPIRY = 48*60*60*1000;
+
+// Reset cache function for testing
+const resetCache = () => {
+  videoDataCache = null;
+  videoDataTimestamp = 0;
+  sheetDataCache = null;
+  sheetDataTimestamp = 0;
+  rolesDataCache = null;
+  rolesDataTimestamp = 0;
+  theOtherRolesDataCache = null;
+  theOtherRolesTimestamp = 0;
+  console.log("All caches have been reset");
+}
 
 // Try to load existing cache from disk
 try {
@@ -28,6 +47,16 @@ try {
   if (fs.existsSync("sheetData.json")) {
     sheetDataCache = JSON.parse(fs.readFileSync("sheetData.json", "utf8"));
     sheetDataTimestamp = Date.now();
+  }
+  
+  if (fs.existsSync("roleInformation/allTheRolesMod.json")) {
+    rolesDataCache = JSON.parse(fs.readFileSync("roleInformation/allTheRolesMod.json", "utf8"));
+    rolesDataTimestamp = Date.now();
+  }
+
+  if (fs.existsSync("roleInformation/theOtherRolesMod.json")) {
+    theOtherRolesDataCache = JSON.parse(fs.readFileSync("roleInformation/theOtherRolesMod.json", "utf8"));
+    theOtherRolesTimestamp = Date.now();
   }
 } catch (error) {
   console.error("Error loading cache:", error);
@@ -78,6 +107,45 @@ const preloadSheetData = async () => {
   }
 };
 
+// Preload roles data on server startup if cache is empty or expired
+const preloadRolesData = async () => {
+  try {
+    if (!rolesDataCache || Date.now() - rolesDataTimestamp >= CACHE_EXPIRY) {
+      console.log("Preloading roles data...");
+      const rolesData = await fetchAllTheRolesMod();
+      if (rolesData) {
+        rolesDataCache = rolesData;
+        rolesDataTimestamp = Date.now();
+        console.log("Roles data preloaded successfully.");
+      } else {
+        console.error("Preload failed: fetched roles data is empty or invalid.");
+      }
+    } else {
+      console.log("Using existing roles data cache.");
+    }
+
+    // Preload TheOtherRoles data
+    if (!theOtherRolesDataCache || Date.now() - theOtherRolesTimestamp >= CACHE_EXPIRY) {
+      console.log("Preloading TheOtherRoles data...");
+      // Dynamically import the ESM module
+      const fetchOtherRolesModule = await import('./utils/fetchTheOtherRolesMod.js');
+      const theOtherRolesData = await fetchOtherRolesModule.fetchOtherRolesMod();
+      
+      if (theOtherRolesData) {
+        theOtherRolesDataCache = theOtherRolesData;
+        theOtherRolesTimestamp = Date.now();
+        console.log("TheOtherRoles data preloaded successfully.");
+      } else {
+        console.error("Preload failed: fetched TheOtherRoles data is empty or invalid.");
+      }
+    } else {
+      console.log("Using existing TheOtherRoles data cache.");
+    }
+  } catch (err) {
+    console.error("Error preloading roles data:", err);
+  }
+};
+
 app.use(express.json());
 
 morgan.token("body", (request) => {
@@ -108,6 +176,130 @@ app.use(cors());
 const unknownEndpoint = (request, response) => {
   response.status(404).send({ error: "unknown endpoint" });
 };
+
+// Add endpoint to reset cache for testing
+app.get("/api/reset-cache", (req, res) => {
+  resetCache();
+  // Optionally delete cache files too
+  try {
+    if (fs.existsSync("videoData.json")) {
+      fs.unlinkSync("videoData.json");
+    }
+    if (fs.existsSync("sheetData.json")) {
+      fs.unlinkSync("sheetData.json");
+    }
+    if (fs.existsSync("roleInformation/allTheRolesMod.json")) {
+      fs.unlinkSync("roleInformation/allTheRolesMod.json");
+    }
+    if (fs.existsSync("roleInformation/theOtherRolesMod.json")) {
+      fs.unlinkSync("roleInformation/theOtherRolesMod.json");
+    }
+  } catch (error) {
+    console.error("Error deleting cache files:", error);
+  }
+  
+  res.json({ message: "Cache reset successfully" });
+});
+
+app.get("/api/roles", async (req,res) => {
+  try {
+    // Check if cache is valid
+    const cachesValid = rolesDataCache && 
+                        Date.now() - rolesDataTimestamp < CACHE_EXPIRY &&
+                        theOtherRolesDataCache && 
+                        Date.now() - theOtherRolesTimestamp < CACHE_EXPIRY;
+    
+    if (cachesValid) {
+      console.log("Serving roles from cache");
+      
+      // Combine all roles from both mods into a single structure
+      const combinedRoles = {
+        crewmate: {
+          ...rolesDataCache.crewmate,
+          ...theOtherRolesDataCache.crewmate
+        },
+        impostor: {
+          ...rolesDataCache.impostor,
+          ...theOtherRolesDataCache.impostor
+        },
+        neutral: {
+          ...rolesDataCache.neutral,
+          ...theOtherRolesDataCache.neutral
+        }
+      };
+      
+      return res.json(combinedRoles);
+    }
+    
+    console.log("Fetching fresh roles data");
+    const allTheRoles = await fetchAllTheRolesMod();
+    
+    // Dynamically import the ESM module
+    const fetchOtherRolesModule = await import('./utils/fetchTheOtherRolesMod.js');
+    const theOtherRoles = await fetchOtherRolesModule.fetchOtherRolesMod();
+    
+    if (allTheRoles && theOtherRoles) {
+      // Update cache
+      rolesDataCache = allTheRoles;
+      rolesDataTimestamp = Date.now();
+      theOtherRolesDataCache = theOtherRoles;
+      theOtherRolesTimestamp = Date.now();
+      
+      // Combine all roles from both mods into a single structure
+      const combinedRoles = {
+        crewmate: {
+          ...allTheRoles.crewmate,
+          ...theOtherRoles.crewmate
+        },
+        impostor: {
+          ...allTheRoles.impostor,
+          ...theOtherRoles.impostor
+        },
+        neutral: {
+          ...allTheRoles.neutral,
+          ...theOtherRoles.neutral
+        }
+      };
+      
+      res.json(combinedRoles);
+    } else {
+      res.status(500).json({ error: "Failed to fetch roles data" });
+    }
+  } catch (error) {
+    console.error("Error fetching roles:", error);
+    
+    // Fallback to cached data if available
+    if (rolesDataCache && theOtherRolesDataCache) {
+      console.log("Falling back to cached roles data");
+      
+      // Combine all roles from both mods into a single structure
+      const combinedRoles = {
+        crewmate: {
+          ...rolesDataCache.crewmate,
+          ...theOtherRolesDataCache.crewmate
+        },
+        impostor: {
+          ...rolesDataCache.impostor,
+          ...theOtherRolesDataCache.impostor
+        },
+        neutral: {
+          ...rolesDataCache.neutral,
+          ...theOtherRolesDataCache.neutral
+        }
+      };
+      
+      return res.json(combinedRoles);
+    } else if (rolesDataCache) {
+      return res.json({
+        crewmate: rolesDataCache.crewmate,
+        impostor: rolesDataCache.impostor,
+        neutral: rolesDataCache.neutral
+      });
+    }
+    
+    res.status(500).json({ error: "Failed to fetch roles" });
+  }
+});
 
 app.get("/api/videos", async (request, response) => {
   try {
@@ -192,6 +384,7 @@ const startServer = async () => {
     // First preload the data
     await preloadVideoData();
     await preloadSheetData();
+    await preloadRolesData();
     
     // Then start the server
     app.listen(PORT, () => {

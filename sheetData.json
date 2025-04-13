@@ -3,6 +3,42 @@
     "sheet": 0,
     "data": [
       {
+        "name": "Ethan",
+        "gamesplayed": 308,
+        "wins": 131,
+        "losses": 178,
+        "win%": 42.53,
+        "kills": 152,
+        "deaths": 158,
+        "kdr": 0.96,
+        "killsasimposter": 137,
+        "killsperimpostergame": 2.21,
+        "impostergames": 62,
+        "imposterwins": 26,
+        "imposterwin%": 41.94,
+        "crewmategames": 229,
+        "crewmatewins": 100,
+        "crewmatewin%": 43.67,
+        "neutralgames": 17,
+        "neutralwins": 4,
+        "neutralwin%": 23.53,
+        "lovergames": 2,
+        "loverwins": 1,
+        "loverwin%": 50,
+        "totaltasks": 1016,
+        "taskscompleted": 631,
+        "taskcompletion%": 62.11,
+        "alltaskscompleted": "43",
+        "votedout": 43,
+        "emergencymeetings": 18,
+        "bodiesreported": 66,
+        "votedoutfirst": 24,
+        "firstdeathofgame": 40,
+        "deathinfirstround": 45,
+        "disconnected": 1,
+        "ragequit": 0
+      },
+      {
         "name": "Simon",
         "gamesplayed": 307,
         "wins": 168,
@@ -39,107 +75,71 @@
         "ragequit": 0
       },
       {
-        "name": "Ethan",
-        "gamesplayed": 303,
-        "wins": 129,
-        "losses": 175,
-        "win%": 42.57,
-        "kills": 150,
-        "deaths": 155,
-        "kdr": 0.97,
-        "killsasimposter": 135,
-        "killsperimpostergame": 2.21,
-        "impostergames": 61,
-        "imposterwins": 26,
-        "imposterwin%": 42.62,
-        "crewmategames": 225,
-        "crewmatewins": 98,
-        "crewmatewin%": 43.56,
-        "neutralgames": 17,
-        "neutralwins": 4,
-        "neutralwin%": 23.53,
-        "lovergames": 2,
-        "loverwins": 1,
-        "loverwin%": 50,
-        "totaltasks": 995,
-        "taskscompleted": 620,
-        "taskcompletion%": 62.31,
-        "alltaskscompleted": "43",
-        "votedout": 42,
-        "emergencymeetings": 18,
-        "bodiesreported": 65,
-        "votedoutfirst": 23,
-        "firstdeathofgame": 40,
-        "deathinfirstround": 45,
-        "disconnected": 1,
-        "ragequit": 0
-      },
-      {
         "name": "Josh",
-        "gamesplayed": 300,
-        "wins": 128,
-        "losses": 172,
-        "win%": 42.67,
+        "gamesplayed": 305,
+        "wins": 131,
+        "losses": 174,
+        "win%": 42.95,
         "kills": 127,
-        "deaths": 132,
-        "kdr": 0.96,
+        "deaths": 136,
+        "kdr": 0.93,
         "killsasimposter": 119,
         "killsperimpostergame": 1.75,
         "impostergames": 68,
         "imposterwins": 28,
         "imposterwin%": 41.18,
-        "crewmategames": 218,
-        "crewmatewins": 97,
-        "crewmatewin%": 44.5,
+        "crewmategames": 223,
+        "crewmatewins": 100,
+        "crewmatewin%": 44.84,
         "neutralgames": 14,
         "neutralwins": 3,
         "neutralwin%": 21.43,
         "lovergames": 2,
         "loverwins": 0,
         "loverwin%": 0,
-        "totaltasks": 994,
-        "taskscompleted": 524,
-        "taskcompletion%": 52.72,
-        "alltaskscompleted": "19",
+        "totaltasks": 1022,
+        "taskscompleted": 535,
+        "taskcompletion%": 52.35,
+        "alltaskscompleted": "20",
         "votedout": 63,
-        "emergencymeetings": 31,
+        "emergencymeetings": 32,
         "bodiesreported": 63,
         "votedoutfirst": 24,
-        "firstdeathofgame": 31,
-        "deathinfirstround": 34,
+        "firstdeathofgame": 32,
+        "deathinfirstround": 35,
         "disconnected": 0,
         "ragequit": 0
       },
       {
         "name": "Vik",
-        "gamesplayed": 294,
-        "wins": 150,
-        "losses": 144,
-        "win%": 51.02,
-        "kills": 135,
+        "gamesplayed": 299,
+        "wins": 153,
+        "losses": 146,
+        "win%": 51.17,
+        "kills": 140,
         "deaths": 136,
-        "kdr": 0.99,
-        "killsasimposter": 124,
-        "killsperimpostergame": 2.1,
-        "impostergames": 59,
-        "imposterwins": 36,
-        "imposterwin%": 61.02,
-        "crewmategames": 223,
-        "crewmatewins": 110,
-        "crewmatewin%": 49.33,
+        "kdr": 1.03,
+        "killsasimposter": 129,
+        "killsperimpostergame": 2.11,
+        "impostergames": 61,
+        "imposterwins": 37,
+        "imposterwin%": 60.66,
+        "crewmategames": 226,
+        "crewmatewins": 112,
+        "crewmatewin%": 49.56,
         "neutralgames": 12,
         "neutralwins": 4,
         "neutralwin%": 33.33,
         "lovergames": 0,
         "loverwins": 0,
         "loverwin%": 0,
-        "totaltasks": 970,
-        "taskscompleted": 249,
-        "taskcompletion%": 25.67,
+        "totaltasks": 991,
+        "taskscompleted": 256,
+        "taskcompletion%": 25.83,
         "alltaskscompleted": "10",
-        "votedout": 44,
+        "votedout": 45,
         "emergencymeetings": 32,
-        "bodiesreported": 81,
+        "bodiesreported": 83,
         "votedoutfirst": 21,
         "firstdeathofgame": 26,
         "deathinfirstround": 31,
@@ -148,37 +148,37 @@
       },
       {
         "name": "Tobi",
-        "gamesplayed": 291,
-        "wins": 127,
-        "losses": 164,
-        "win%": 43.64,
-        "kills": 129,
-        "deaths": 128,
-        "kdr": 1.01,
-        "killsasimposter": 111,
-        "killsperimpostergame": 2.02,
-        "impostergames": 55,
+        "gamesplayed": 296,
+        "wins": 128,
+        "losses": 168,
+        "win%": 43.24,
+        "kills": 132,
+        "deaths": 132,
+        "kdr": 1,
+        "killsasimposter": 114,
+        "killsperimpostergame": 2,
+        "impostergames": 57,
         "imposterwins": 21,
-        "imposterwin%": 38.18,
-        "crewmategames": 220,
-        "crewmatewins": 103,
-        "crewmatewin%": 46.82,
+        "imposterwin%": 36.84,
+        "crewmategames": 223,
+        "crewmatewins": 104,
+        "crewmatewin%": 46.64,
         "neutralgames": 16,
         "neutralwins": 3,
         "neutralwin%": 18.75,
         "lovergames": 1,
         "loverwins": 0,
         "loverwin%": 0,
-        "totaltasks": 894,
-        "taskscompleted": 651,
-        "taskcompletion%": 72.82,
+        "totaltasks": 908,
+        "taskscompleted": 657,
+        "taskcompletion%": 72.36,
         "alltaskscompleted": "51",
         "votedout": 57,
-        "emergencymeetings": 21,
-        "bodiesreported": 67,
+        "emergencymeetings": 22,
+        "bodiesreported": 69,
         "votedoutfirst": 24,
-        "firstdeathofgame": 29,
-        "deathinfirstround": 39,
+        "firstdeathofgame": 30,
+        "deathinfirstround": 40,
         "disconnected": 1,
         "ragequit": 1
       },
@@ -256,73 +256,73 @@
       },
       {
         "name": "Deji",
-        "gamesplayed": 172,
-        "wins": 71,
-        "losses": 101,
-        "win%": 41.28,
-        "kills": 87,
-        "deaths": 68,
-        "kdr": 1.28,
-        "killsasimposter": 61,
-        "killsperimpostergame": 1.91,
-        "impostergames": 32,
-        "imposterwins": 9,
-        "imposterwin%": 28.13,
-        "crewmategames": 121,
-        "crewmatewins": 55,
-        "crewmatewin%": 45.45,
+        "gamesplayed": 177,
+        "wins": 75,
+        "losses": 102,
+        "win%": 42.37,
+        "kills": 93,
+        "deaths": 70,
+        "kdr": 1.33,
+        "killsasimposter": 66,
+        "killsperimpostergame": 2,
+        "impostergames": 33,
+        "imposterwins": 10,
+        "imposterwin%": 30.3,
+        "crewmategames": 125,
+        "crewmatewins": 58,
+        "crewmatewin%": 46.4,
         "neutralgames": 19,
         "neutralwins": 7,
         "neutralwin%": 36.84,
         "lovergames": 1,
         "loverwins": 0,
         "loverwin%": 0,
-        "totaltasks": 849,
+        "totaltasks": 870,
         "taskscompleted": 170,
-        "taskcompletion%": 20.02,
+        "taskcompletion%": 19.54,
         "alltaskscompleted": "9",
         "votedout": 53,
         "emergencymeetings": 29,
-        "bodiesreported": 22,
+        "bodiesreported": 23,
         "votedoutfirst": 38,
-        "firstdeathofgame": 16,
-        "deathinfirstround": 21,
+        "firstdeathofgame": 18,
+        "deathinfirstround": 23,
         "disconnected": 1,
         "ragequit": 0
       },
       {
         "name": "Lazarbeam",
-        "gamesplayed": 172,
-        "wins": 82,
-        "losses": 90,
-        "win%": 47.67,
-        "kills": 82,
-        "deaths": 74,
-        "kdr": 1.11,
-        "killsasimposter": 72,
+        "gamesplayed": 177,
+        "wins": 86,
+        "losses": 91,
+        "win%": 48.59,
+        "kills": 85,
+        "deaths": 77,
+        "kdr": 1.1,
+        "killsasimposter": 74,
         "killsperimpostergame": 2.18,
-        "impostergames": 33,
-        "imposterwins": 20,
-        "imposterwin%": 60.61,
-        "crewmategames": 132,
-        "crewmatewins": 58,
-        "crewmatewin%": 43.94,
+        "impostergames": 34,
+        "imposterwins": 21,
+        "imposterwin%": 61.76,
+        "crewmategames": 136,
+        "crewmatewins": 61,
+        "crewmatewin%": 44.85,
         "neutralgames": 7,
         "neutralwins": 4,
         "neutralwin%": 57.14,
         "lovergames": 0,
         "loverwins": 0,
         "loverwin%": 0,
-        "totaltasks": 797,
+        "totaltasks": 825,
         "taskscompleted": 211,
-        "taskcompletion%": 26.47,
+        "taskcompletion%": 25.58,
         "alltaskscompleted": "4",
         "votedout": 29,
-        "emergencymeetings": 21,
-        "bodiesreported": 48,
+        "emergencymeetings": 22,
+        "bodiesreported": 52,
         "votedoutfirst": 9,
         "firstdeathofgame": 17,
-        "deathinfirstround": 17,
+        "deathinfirstround": 18,
         "disconnected": 0,
         "ragequit": 0
       },
@@ -364,35 +364,35 @@
       },
       {
         "name": "Viz",
-        "gamesplayed": 143,
-        "wins": 65,
-        "losses": 78,
-        "win%": 45.45,
-        "kills": 57,
-        "deaths": 73,
-        "kdr": 0.78,
+        "gamesplayed": 148,
+        "wins": 68,
+        "losses": 80,
+        "win%": 45.95,
+        "kills": 58,
+        "deaths": 76,
+        "kdr": 0.76,
         "killsasimposter": 54,
         "killsperimpostergame": 2.16,
         "impostergames": 25,
         "imposterwins": 11,
         "imposterwin%": 44,
-        "crewmategames": 108,
-        "crewmatewins": 52,
-        "crewmatewin%": 48.15,
+        "crewmategames": 113,
+        "crewmatewins": 55,
+        "crewmatewin%": 48.67,
         "neutralgames": 10,
         "neutralwins": 2,
         "neutralwin%": 20,
         "lovergames": 0,
         "loverwins": 0,
         "loverwin%": 0,
-        "totaltasks": 628,
-        "taskscompleted": 232,
-        "taskcompletion%": 36.94,
+        "totaltasks": 656,
+        "taskscompleted": 233,
+        "taskcompletion%": 35.52,
         "alltaskscompleted": "8",
-        "votedout": 18,
+        "votedout": 19,
         "emergencymeetings": 7,
-        "bodiesreported": 32,
-        "votedoutfirst": 10,
+        "bodiesreported": 33,
+        "votedoutfirst": 11,
         "firstdeathofgame": 11,
         "deathinfirstround": 15,
         "disconnected": 1,
@@ -436,34 +436,34 @@
       },
       {
         "name": "Lachlan",
-        "gamesplayed": 114,
-        "wins": 41,
-        "losses": 73,
-        "win%": 35.96,
-        "kills": 60,
-        "deaths": 57,
+        "gamesplayed": 119,
+        "wins": 44,
+        "losses": 75,
+        "win%": 36.97,
+        "kills": 62,
+        "deaths": 59,
         "kdr": 1.05,
         "killsasimposter": 54,
         "killsperimpostergame": 2,
         "impostergames": 27,
         "imposterwins": 9,
         "imposterwin%": 33.33,
-        "crewmategames": 81,
-        "crewmatewins": 31,
-        "crewmatewin%": 38.27,
+        "crewmategames": 86,
+        "crewmatewins": 34,
+        "crewmatewin%": 39.53,
         "neutralgames": 6,
         "neutralwins": 1,
         "neutralwin%": 16.67,
         "lovergames": 0,
         "loverwins": 0,
         "loverwin%": 0,
-        "totaltasks": 395,
-        "taskscompleted": 117,
-        "taskcompletion%": 29.62,
+        "totaltasks": 423,
+        "taskscompleted": 125,
+        "taskcompletion%": 29.55,
         "alltaskscompleted": "5",
-        "votedout": 18,
-        "emergencymeetings": 9,
-        "bodiesreported": 39,
+        "votedout": 19,
+        "emergencymeetings": 10,
+        "bodiesreported": 40,
         "votedoutfirst": 7,
         "firstdeathofgame": 8,
         "deathinfirstround": 8,
@@ -472,37 +472,37 @@
       },
       {
         "name": "PieFace",
-        "gamesplayed": 60,
-        "wins": 27,
-        "losses": 33,
-        "win%": 45,
-        "kills": 32,
-        "deaths": 31,
-        "kdr": 1.03,
-        "killsasimposter": 32,
-        "killsperimpostergame": 2.13,
-        "impostergames": 15,
+        "gamesplayed": 65,
+        "wins": 29,
+        "losses": 36,
+        "win%": 44.62,
+        "kills": 33,
+        "deaths": 33,
+        "kdr": 1,
+        "killsasimposter": 33,
+        "killsperimpostergame": 2.06,
+        "impostergames": 16,
         "imposterwins": 8,
-        "imposterwin%": 53.33,
-        "crewmategames": 44,
-        "crewmatewins": 19,
-        "crewmatewin%": 43.18,
+        "imposterwin%": 50,
+        "crewmategames": 48,
+        "crewmatewins": 21,
+        "crewmatewin%": 43.75,
         "neutralgames": 1,
         "neutralwins": 0,
         "neutralwin%": 0,
         "lovergames": 1,
         "loverwins": 0,
         "loverwin%": 0,
-        "totaltasks": 266,
-        "taskscompleted": 188,
-        "taskcompletion%": 70.68,
+        "totaltasks": 287,
+        "taskscompleted": 190,
+        "taskcompletion%": 66.2,
         "alltaskscompleted": "15",
-        "votedout": 11,
+        "votedout": 12,
         "emergencymeetings": 4,
-        "bodiesreported": 20,
-        "votedoutfirst": 3,
+        "bodiesreported": 21,
+        "votedoutfirst": 4,
         "firstdeathofgame": 10,
-        "deathinfirstround": 9,
+        "deathinfirstround": 10,
         "disconnected": 1,
         "ragequit": 0
       },
@@ -903,6 +903,42 @@
         "ragequit": 0
       },
       {
+        "name": "Theo",
+        "gamesplayed": 13,
+        "wins": 5,
+        "losses": 8,
+        "win%": 38.46,
+        "kills": 5,
+        "deaths": 7,
+        "kdr": 0.71,
+        "killsasimposter": 5,
+        "killsperimpostergame": 1.25,
+        "impostergames": 4,
+        "imposterwins": 2,
+        "imposterwin%": 50,
+        "crewmategames": 9,
+        "crewmatewins": 3,
+        "crewmatewin%": 33.33,
+        "neutralgames": 0,
+        "neutralwins": 0,
+        "neutralwin%": 0,
+        "lovergames": 0,
+        "loverwins": 0,
+        "loverwin%": 0,
+        "totaltasks": 7,
+        "taskscompleted": 0,
+        "taskcompletion%": 0,
+        "alltaskscompleted": "NA",
+        "votedout": 2,
+        "emergencymeetings": 0,
+        "bodiesreported": 1,
+        "votedoutfirst": 1,
+        "firstdeathofgame": 1,
+        "deathinfirstround": 2,
+        "disconnected": 0,
+        "ragequit": 0
+      },
+      {
         "name": "Fresh",
         "gamesplayed": 10,
         "wins": 4,
@@ -1040,42 +1076,6 @@
         "votedout": 0,
         "emergencymeetings": 0,
         "bodiesreported": 1,
-        "votedoutfirst": 0,
-        "firstdeathofgame": 0,
-        "deathinfirstround": 0,
-        "disconnected": 0,
-        "ragequit": 0
-      },
-      {
-        "name": "Theo",
-        "gamesplayed": 8,
-        "wins": 3,
-        "losses": 5,
-        "win%": 37.5,
-        "kills": 3,
-        "deaths": 5,
-        "kdr": 0.6,
-        "killsasimposter": 3,
-        "killsperimpostergame": 3,
-        "impostergames": 1,
-        "imposterwins": 1,
-        "imposterwin%": 100,
-        "crewmategames": 7,
-        "crewmatewins": 2,
-        "crewmatewin%": 28.57,
-        "neutralgames": 0,
-        "neutralwins": 0,
-        "neutralwin%": 0,
-        "lovergames": 0,
-        "loverwins": 0,
-        "loverwin%": 0,
-        "totaltasks": "",
-        "taskscompleted": "",
-        "taskcompletion%": "",
-        "alltaskscompleted": "NA",
-        "votedout": 0,
-        "emergencymeetings": 0,
-        "bodiesreported": 0,
         "votedoutfirst": 0,
         "firstdeathofgame": 0,
         "deathinfirstround": 0,
@@ -1664,10 +1664,10 @@
     "sheet": 1,
     "data": [
       {
-        "gamesplayed": 337,
+        "gamesplayed": 342,
         "": "",
         "rolename": "Imposter",
-        "wins": 149,
+        "wins": 151,
         "mapname": "The Skeld",
         "numberofgames": 239
       },
@@ -1675,9 +1675,9 @@
         "gamesplayed": "",
         "": "",
         "rolename": "Crewmate",
-        "wins": 152,
+        "wins": 155,
         "mapname": "Bigger Skeld",
-        "numberofgames": 59
+        "numberofgames": 64
       },
       {
         "gamesplayed": "",
@@ -1736,7 +1736,7 @@
         "numberofgames": 1
       },
       {
-        "gamesplayed": 623,
+        "gamesplayed": 630,
         "": "",
         "rolename": "Jackal",
         "wins": 1,
@@ -1760,7 +1760,7 @@
         "numberofgames": ""
       },
       {
-        "gamesplayed": 362,
+        "gamesplayed": 366,
         "": "",
         "rolename": "Doomsayer",
         "wins": 1,
@@ -1784,7 +1784,7 @@
         "numberofgames": ""
       },
       {
-        "gamesplayed": 816,
+        "gamesplayed": 830,
         "": "",
         "rolename": "Cannibal",
         "wins": 2,
@@ -1808,7 +1808,7 @@
         "numberofgames": ""
       },
       {
-        "gamesplayed": 1559,
+        "gamesplayed": 1584,
         "": "",
         "rolename": "",
         "wins": "",
@@ -1816,7 +1816,7 @@
         "numberofgames": ""
       },
       {
-        "gamesplayed": 11939,
+        "gamesplayed": 12156,
         "": "",
         "rolename": "",
         "wins": "",
@@ -1824,7 +1824,7 @@
         "numberofgames": ""
       },
       {
-        "gamesplayed": 4940,
+        "gamesplayed": 4986,
         "": "",
         "rolename": "",
         "wins": "",
@@ -4530,6 +4530,46 @@
         "winner": "Crewmate",
         "mapname": "Bigger Skeld",
         "players,rolesandtasks": "Simon - Haunter - (3/7)\nJosh - Crewmate - (6/7)\nVik - Scavenger\nEthan - Hunter - (1/7)\nCallux - Prosecutor Crewmate - (1/7)\nMaxFosh - Sheriff - (4/7)\nDeji - Tracker - (0/7)\nGeorge Clarkey - Swapper - (3/7)\nDannyAarons - Hypnotist\nViz - Veteran - (0/7)",
+        "": ""
+      },
+      {
+        "gamenumber": 338,
+        "videolink": "https://www.youtube.com/watch?v=mFa13CIo2No&list=PLhjLcvbbPVrVOY5w5Pl7KuSe5fGroQJJD&index=102",
+        "winner": "Imposter",
+        "mapname": "Bigger Skeld",
+        "players,rolesandtasks": "Josh - Investigator\nVik - Undertaker\nTobi - Detective\nEthan - Lookout\nLachlan - Deputy\nLazarbeam - Radar Blackmailer\nTheo - Bait Crewmate\nPieFace - Sheriff\nDeji - Mini Crewmate\nViz - Crewmate",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "videolink": "https://www.youtube.com/watch?v=mFa13CIo2No&list=PLhjLcvbbPVrVOY5w5Pl7KuSe5fGroQJJD&t=1049s",
+        "winner": "Crewmate",
+        "mapname": "Bigger Skeld",
+        "players,rolesandtasks": "Josh - Crewmate - (7/7)\nVik - Crewmate - (4/7)\nTobi - Morphling\nEthan - Radar Lookout - (3/7)\nLachlan - Sheriff - (2/7)\nLazarbeam - Deputy - (0/7)\nTheo - Blackmailer\nPieFace - Traitor\nDeji - Mini Investigator - (0/7)\nViz - Bait Detective - (0/7)",
+        "": ""
+      },
+      {
+        "gamenumber": 340,
+        "videolink": "https://www.youtube.com/watch?v=mFa13CIo2No&list=PLhjLcvbbPVrVOY5w5Pl7KuSe5fGroQJJD&t=2121s",
+        "winner": "Crewmate",
+        "mapname": "Bigger Skeld",
+        "players,rolesandtasks": "Josh - Deputy - (0/7)\nVik - Crewmate - (1/7)\nTobi - Blackmailer\nEthan - Venerer\nLachlan - Radar Crewmate - (0/7)\nLazarbeam - Crewmate - (0/7)\nTheo - Bait Lookout - (0/7)\nPieFace - Investigator - (0/7)\nDeji - Mini Veteran - (0/7)\nViz - Sheriff - (0/7)",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "videolink": "https://www.youtube.com/watch?v=mFa13CIo2No&list=PLhjLcvbbPVrVOY5w5Pl7KuSe5fGroQJJD&t=2769s",
+        "winner": "Imposter",
+        "mapname": "Bigger Skeld",
+        "players,rolesandtasks": "Josh - Investigator - (1/7)\nVik - Sheriff - (2/7)\nTobi - Mini Deputy - (1/7)\nEthan - Bait Crewmate - (3/7)\nLachlan - Lookout - (3/7)\nLazarbeam - Veteran - (0/7)\nTheo - Janitor\nPieFace - Crewmate - (1/7)\nDeji - Radar Blackmailer\nViz - Crewmate - (1/7)",
+        "": ""
+      },
+      {
+        "gamenumber": 342,
+        "videolink": "https://www.youtube.com/watch?v=mFa13CIo2No&list=PLhjLcvbbPVrVOY5w5Pl7KuSe5fGroQJJD&t=3573s",
+        "winner": "Crewmate",
+        "mapname": "Bigger Skeld",
+        "players,rolesandtasks": "Josh - Radar Sheriff - (3/7)\nVik - Blackmailer\nTobi - Mini Crewmate - (5/7)\nEthan - Bait Veteran - (5/7)\nLachlan - Deputy - (3/7)\nLazarbeam - Crewmate - (0/7)\nTheo - Scavenger\nPieFace - Investigator - (1/7)\nDeji - Lookout - (0/7)\nViz - Crewmate - (0/7)",
         "": ""
       }
     ]
@@ -35600,6 +35640,510 @@
         "eventtype": "Was Voted Out",
         "secondaryplayer": "",
         "": ""
+      },
+      {
+        "gamenumber": 338,
+        "sequence": 1,
+        "primaryplayer": "Lazarbeam",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Deji",
+        "": ""
+      },
+      {
+        "gamenumber": 338,
+        "sequence": 2,
+        "primaryplayer": "Vik",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "PieFace",
+        "": ""
+      },
+      {
+        "gamenumber": 338,
+        "sequence": 3,
+        "primaryplayer": "Lazarbeam",
+        "eventtype": "Reported Body Of",
+        "secondaryplayer": "Deji",
+        "": ""
+      },
+      {
+        "gamenumber": 338,
+        "sequence": 4,
+        "primaryplayer": "Lazarbeam",
+        "eventtype": "Blackmailed",
+        "secondaryplayer": "Tobi",
+        "": ""
+      },
+      {
+        "gamenumber": 338,
+        "sequence": 5,
+        "primaryplayer": "Vik",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Josh",
+        "": ""
+      },
+      {
+        "gamenumber": 338,
+        "sequence": 6,
+        "primaryplayer": "Tobi",
+        "eventtype": "Called Emergency Meeting",
+        "secondaryplayer": "",
+        "": ""
+      },
+      {
+        "gamenumber": 338,
+        "sequence": 7,
+        "primaryplayer": "Vik",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Ethan",
+        "": ""
+      },
+      {
+        "gamenumber": 338,
+        "sequence": 8,
+        "primaryplayer": "Lazarbeam",
+        "eventtype": "Blackmailed",
+        "secondaryplayer": "Tobi",
+        "": ""
+      },
+      {
+        "gamenumber": 338,
+        "sequence": 9,
+        "primaryplayer": "Lazarbeam",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Viz",
+        "": ""
+      },
+      {
+        "gamenumber": 338,
+        "sequence": 10,
+        "primaryplayer": "Tobi",
+        "eventtype": "Reported Body Of",
+        "secondaryplayer": "Viz",
+        "": ""
+      },
+      {
+        "gamenumber": 338,
+        "sequence": 11,
+        "primaryplayer": "Vik",
+        "eventtype": "Guess Killed (Killed)",
+        "secondaryplayer": "Lachlan",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 1,
+        "primaryplayer": "Tobi",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Deji",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 2,
+        "primaryplayer": "Tobi",
+        "eventtype": "Morphed Into",
+        "secondaryplayer": "Deji",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 3,
+        "primaryplayer": "Lachlan",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Theo",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 4,
+        "primaryplayer": "Lazarbeam",
+        "eventtype": "Reported Body Of",
+        "secondaryplayer": "Theo",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 5,
+        "primaryplayer": "Lazarbeam",
+        "eventtype": "Camped",
+        "secondaryplayer": "Lachlan",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 6,
+        "primaryplayer": "Lachlan",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Lachlan",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 7,
+        "primaryplayer": "Tobi",
+        "eventtype": "Reported Body Of",
+        "secondaryplayer": "Lachlan",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 8,
+        "primaryplayer": "Lazarbeam",
+        "eventtype": "Camped",
+        "secondaryplayer": "Ethan",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 9,
+        "primaryplayer": "Tobi",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Ethan",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 10,
+        "primaryplayer": "Lazarbeam",
+        "eventtype": "Reported Body Of",
+        "secondaryplayer": "Ethan",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 11,
+        "primaryplayer": "Lazarbeam",
+        "eventtype": "Shot (Killed)",
+        "secondaryplayer": "Tobi",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 12,
+        "primaryplayer": "Josh",
+        "eventtype": "Called Emergency Meeting",
+        "secondaryplayer": "",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 13,
+        "primaryplayer": "PieFace",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Josh",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 14,
+        "primaryplayer": "Viz",
+        "eventtype": "Reported Body Of",
+        "secondaryplayer": "Josh",
+        "": ""
+      },
+      {
+        "gamenumber": 339,
+        "sequence": 15,
+        "primaryplayer": "PieFace",
+        "eventtype": "Was Voted Out",
+        "secondaryplayer": "",
+        "": ""
+      },
+      {
+        "gamenumber": 340,
+        "sequence": 1,
+        "primaryplayer": "Josh",
+        "eventtype": "Camped",
+        "secondaryplayer": "Theo",
+        "": ""
+      },
+      {
+        "gamenumber": 340,
+        "sequence": 2,
+        "primaryplayer": "Ethan",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Theo",
+        "": ""
+      },
+      {
+        "gamenumber": 340,
+        "sequence": 3,
+        "primaryplayer": "Tobi",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Lazarbeam",
+        "": ""
+      },
+      {
+        "gamenumber": 340,
+        "sequence": 4,
+        "primaryplayer": "Ethan",
+        "eventtype": "Reported Body Of",
+        "secondaryplayer": "Theo",
+        "": ""
+      },
+      {
+        "gamenumber": 340,
+        "sequence": 5,
+        "primaryplayer": "Tobi",
+        "eventtype": "Blackmailed",
+        "secondaryplayer": "Josh",
+        "": ""
+      },
+      {
+        "gamenumber": 340,
+        "sequence": 6,
+        "primaryplayer": "Viz",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Viz",
+        "": ""
+      },
+      {
+        "gamenumber": 340,
+        "sequence": 7,
+        "primaryplayer": "Deji",
+        "eventtype": "Veteran Killed (Killed)",
+        "secondaryplayer": "Tobi",
+        "": ""
+      },
+      {
+        "gamenumber": 340,
+        "sequence": 8,
+        "primaryplayer": "Vik",
+        "eventtype": "Reported Body Of",
+        "secondaryplayer": "Viz",
+        "": ""
+      },
+      {
+        "gamenumber": 340,
+        "sequence": 9,
+        "primaryplayer": "Josh",
+        "eventtype": "Camped",
+        "secondaryplayer": "PieFace",
+        "": ""
+      },
+      {
+        "gamenumber": 340,
+        "sequence": 10,
+        "primaryplayer": "Ethan",
+        "eventtype": "Camouflaged",
+        "secondaryplayer": "",
+        "": ""
+      },
+      {
+        "gamenumber": 340,
+        "sequence": 11,
+        "primaryplayer": "Ethan",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Josh",
+        "": ""
+      },
+      {
+        "gamenumber": 340,
+        "sequence": 12,
+        "primaryplayer": "Vik",
+        "eventtype": "Reported Body Of",
+        "secondaryplayer": "Josh",
+        "": ""
+      },
+      {
+        "gamenumber": 340,
+        "sequence": 13,
+        "primaryplayer": "Ethan",
+        "eventtype": "Was Voted Out",
+        "secondaryplayer": "",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 1,
+        "primaryplayer": "Deji",
+        "eventtype": "Blackmailed",
+        "secondaryplayer": "Lazarbeam",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 2,
+        "primaryplayer": "Theo",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Josh",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 3,
+        "primaryplayer": "PieFace",
+        "eventtype": "Reported Body Of",
+        "secondaryplayer": "Josh",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 4,
+        "primaryplayer": "Theo",
+        "eventtype": "Was Voted Out",
+        "secondaryplayer": "",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 5,
+        "primaryplayer": "Tobi",
+        "eventtype": "Camped",
+        "secondaryplayer": "Deji",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 6,
+        "primaryplayer": "Deji",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Tobi",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 7,
+        "primaryplayer": "Deji",
+        "eventtype": "Reported Body Of",
+        "secondaryplayer": "Tobi",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 8,
+        "primaryplayer": "Deji",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Viz",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 9,
+        "primaryplayer": "Deji",
+        "eventtype": "Blackmailed",
+        "secondaryplayer": "Lazarbeam",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 10,
+        "primaryplayer": "Deji",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Ethan",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 11,
+        "primaryplayer": "Deji",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "PieFace",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 12,
+        "primaryplayer": "Lachlan",
+        "eventtype": "Called Emergency Meeting",
+        "secondaryplayer": "",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 13,
+        "primaryplayer": "Deji",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Lazarbeam",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 14,
+        "primaryplayer": "Lachlan",
+        "eventtype": "Reported Body Of",
+        "secondaryplayer": "Lazarbeam",
+        "": ""
+      },
+      {
+        "gamenumber": 341,
+        "sequence": 15,
+        "primaryplayer": "Lachlan",
+        "eventtype": "Was Voted Out",
+        "secondaryplayer": "",
+        "": ""
+      },
+      {
+        "gamenumber": 342,
+        "sequence": 1,
+        "primaryplayer": "Vik",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Tobi",
+        "": ""
+      },
+      {
+        "gamenumber": 342,
+        "sequence": 2,
+        "primaryplayer": "Vik",
+        "eventtype": "Blackmailed",
+        "secondaryplayer": "Lazarbeam",
+        "": ""
+      },
+      {
+        "gamenumber": 342,
+        "sequence": 3,
+        "primaryplayer": "Lazarbeam",
+        "eventtype": "Reported Body Of",
+        "secondaryplayer": "Tobi",
+        "": ""
+      },
+      {
+        "gamenumber": 342,
+        "sequence": 4,
+        "primaryplayer": "Viz",
+        "eventtype": "Was Voted Out",
+        "secondaryplayer": "",
+        "": ""
+      },
+      {
+        "gamenumber": 342,
+        "sequence": 5,
+        "primaryplayer": "Lazarbeam",
+        "eventtype": "Called Emergency Meeting",
+        "secondaryplayer": "",
+        "": ""
+      },
+      {
+        "gamenumber": 342,
+        "sequence": 6,
+        "primaryplayer": "Vik",
+        "eventtype": "Was Voted Out",
+        "secondaryplayer": "",
+        "": ""
+      },
+      {
+        "gamenumber": 342,
+        "sequence": 7,
+        "primaryplayer": "Theo",
+        "eventtype": "Killed (Killed)",
+        "secondaryplayer": "Lazarbeam",
+        "": ""
+      },
+      {
+        "gamenumber": 342,
+        "sequence": 8,
+        "primaryplayer": "Theo",
+        "eventtype": "Reported Body Of",
+        "secondaryplayer": "Lazarbeam",
+        "": ""
+      },
+      {
+        "gamenumber": 342,
+        "sequence": 9,
+        "primaryplayer": "Theo",
+        "eventtype": "Was Voted Out",
+        "secondaryplayer": "",
+        "": ""
       }
     ]
   },
@@ -35612,18 +36156,18 @@
         "": ""
       },
       {
+        "combo": "Vik Killed Josh",
+        "occurrence": 21,
+        "": ""
+      },
+      {
         "combo": "Vik Killed Simon",
         "occurrence": 21,
         "": ""
       },
       {
-        "combo": "Vik Killed Josh",
-        "occurrence": 20,
-        "": ""
-      },
-      {
         "combo": "Vik Killed Ethan",
-        "occurrence": 17,
+        "occurrence": 18,
         "": ""
       },
       {
@@ -35652,13 +36196,8 @@
         "": ""
       },
       {
-        "combo": "JJ Killed Vik",
-        "occurrence": 15,
-        "": ""
-      },
-      {
-        "combo": "Deji Killed JJ",
-        "occurrence": 15,
+        "combo": "Vik Killed Tobi",
+        "occurrence": 16,
         "": ""
       },
       {
@@ -35667,7 +36206,12 @@
         "": ""
       },
       {
-        "combo": "Vik Killed Tobi",
+        "combo": "JJ Killed Vik",
+        "occurrence": 15,
+        "": ""
+      },
+      {
+        "combo": "Deji Killed JJ",
         "occurrence": 15,
         "": ""
       },
@@ -35702,6 +36246,11 @@
         "": ""
       },
       {
+        "combo": "Ethan Killed Josh",
+        "occurrence": 13,
+        "": ""
+      },
+      {
         "combo": "Harry Killed Josh",
         "occurrence": 13,
         "": ""
@@ -35712,7 +36261,7 @@
         "": ""
       },
       {
-        "combo": "Ethan Killed Josh",
+        "combo": "Deji Killed Tobi",
         "occurrence": 12,
         "": ""
       },
@@ -35732,11 +36281,6 @@
         "": ""
       },
       {
-        "combo": "Tobi Killed Randolph",
-        "occurrence": 12,
-        "": ""
-      },
-      {
         "combo": "Randolph Killed Harry",
         "occurrence": 12,
         "": ""
@@ -35744,6 +36288,21 @@
       {
         "combo": "Simon Killed Ethan",
         "occurrence": 12,
+        "": ""
+      },
+      {
+        "combo": "Tobi Killed Randolph",
+        "occurrence": 12,
+        "": ""
+      },
+      {
+        "combo": "Tobi Killed Ethan",
+        "occurrence": 12,
+        "": ""
+      },
+      {
+        "combo": "Tobi Killed Lazarbeam",
+        "occurrence": 11,
         "": ""
       },
       {
@@ -35762,7 +36321,7 @@
         "": ""
       },
       {
-        "combo": "Tobi Killed Ethan",
+        "combo": "JJ Killed Tobi",
         "occurrence": 11,
         "": ""
       },
@@ -35772,7 +36331,7 @@
         "": ""
       },
       {
-        "combo": "JJ Killed Tobi",
+        "combo": "DannyAarons Killed Ethan",
         "occurrence": 11,
         "": ""
       },
@@ -35782,12 +36341,7 @@
         "": ""
       },
       {
-        "combo": "DannyAarons Killed Ethan",
-        "occurrence": 11,
-        "": ""
-      },
-      {
-        "combo": "Deji Killed Tobi",
+        "combo": "Ethan Killed Tobi",
         "occurrence": 10,
         "": ""
       },
@@ -35797,17 +36351,12 @@
         "": ""
       },
       {
-        "combo": "Ethan Killed Tobi",
+        "combo": "JJ Killed Deji",
         "occurrence": 10,
         "": ""
       },
       {
         "combo": "JJ Killed Viz",
-        "occurrence": 10,
-        "": ""
-      },
-      {
-        "combo": "JJ Killed Deji",
         "occurrence": 10,
         "": ""
       },
@@ -35822,17 +36371,12 @@
         "": ""
       },
       {
-        "combo": "Tobi Killed Lazarbeam",
-        "occurrence": 10,
-        "": ""
-      },
-      {
-        "combo": "Vik Killed Randolph",
+        "combo": "Vik Killed Harry",
         "occurrence": 9,
         "": ""
       },
       {
-        "combo": "Vik Killed Harry",
+        "combo": "Vik Killed Randolph",
         "occurrence": 9,
         "": ""
       },
@@ -35857,17 +36401,22 @@
         "": ""
       },
       {
+        "combo": "DannyAarons Killed Simon",
+        "occurrence": 8,
+        "": ""
+      },
+      {
         "combo": "Ethan Killed Lachlan",
         "occurrence": 8,
         "": ""
       },
       {
-        "combo": "Harry Killed Tobi",
+        "combo": "Deji Killed Viz",
         "occurrence": 8,
         "": ""
       },
       {
-        "combo": "DannyAarons Killed Simon",
+        "combo": "Harry Killed Tobi",
         "occurrence": 8,
         "": ""
       },
@@ -35902,7 +36451,7 @@
         "": ""
       },
       {
-        "combo": "Randolph Killed Viz",
+        "combo": "Tobi Killed Deji",
         "occurrence": 7,
         "": ""
       },
@@ -35912,12 +36461,12 @@
         "": ""
       },
       {
-        "combo": "Vik Killed Viz",
+        "combo": "Randolph Killed Viz",
         "occurrence": 7,
         "": ""
       },
       {
-        "combo": "Josh Killed Randolph",
+        "combo": "Vik Killed Viz",
         "occurrence": 7,
         "": ""
       },
@@ -35932,22 +36481,12 @@
         "": ""
       },
       {
+        "combo": "Josh Killed Randolph",
+        "occurrence": 7,
+        "": ""
+      },
+      {
         "combo": "Lachlan Killed Deji",
-        "occurrence": 7,
-        "": ""
-      },
-      {
-        "combo": "DannyAarons Killed Lazarbeam",
-        "occurrence": 7,
-        "": ""
-      },
-      {
-        "combo": "Deji Killed Vik",
-        "occurrence": 7,
-        "": ""
-      },
-      {
-        "combo": "Deji Killed Viz",
         "occurrence": 7,
         "": ""
       },
@@ -35967,7 +36506,17 @@
         "": ""
       },
       {
-        "combo": "Harry Killed Vik",
+        "combo": "DannyAarons Killed Lazarbeam",
+        "occurrence": 7,
+        "": ""
+      },
+      {
+        "combo": "Deji Killed Vik",
+        "occurrence": 7,
+        "": ""
+      },
+      {
+        "combo": "DannyAarons Killed Vik",
         "occurrence": 6,
         "": ""
       },
@@ -35977,7 +36526,7 @@
         "": ""
       },
       {
-        "combo": "DannyAarons Killed Vik",
+        "combo": "Harry Killed Vik",
         "occurrence": 6,
         "": ""
       },
@@ -35993,6 +36542,16 @@
       },
       {
         "combo": "Lazarbeam Killed JJ",
+        "occurrence": 6,
+        "": ""
+      },
+      {
+        "combo": "Lazarbeam Killed Tobi",
+        "occurrence": 6,
+        "": ""
+      },
+      {
+        "combo": "Vik Killed Lachlan",
         "occurrence": 6,
         "": ""
       },
@@ -36022,8 +36581,8 @@
         "": ""
       },
       {
-        "combo": "Tobi Killed Deji",
-        "occurrence": 6,
+        "combo": "Simon Killed DannyAarons",
+        "occurrence": 5,
         "": ""
       },
       {
@@ -36042,17 +36601,17 @@
         "": ""
       },
       {
-        "combo": "Simon Killed DannyAarons",
-        "occurrence": 5,
-        "": ""
-      },
-      {
         "combo": "Viz Killed Vik",
         "occurrence": 5,
         "": ""
       },
       {
         "combo": "Viz Killed Simon",
+        "occurrence": 5,
+        "": ""
+      },
+      {
+        "combo": "Vik Killed Vik",
         "occurrence": 5,
         "": ""
       },
@@ -36067,12 +36626,7 @@
         "": ""
       },
       {
-        "combo": "Vik Killed Vik",
-        "occurrence": 5,
-        "": ""
-      },
-      {
-        "combo": "Vik Killed Lachlan",
+        "combo": "Lazarbeam Killed Deji",
         "occurrence": 5,
         "": ""
       },
@@ -36082,17 +36636,12 @@
         "": ""
       },
       {
+        "combo": "Lachlan Killed Lachlan",
+        "occurrence": 5,
+        "": ""
+      },
+      {
         "combo": "Lachlan Killed Lazarbeam",
-        "occurrence": 5,
-        "": ""
-      },
-      {
-        "combo": "Lazarbeam Killed Tobi",
-        "occurrence": 5,
-        "": ""
-      },
-      {
-        "combo": "JJ Killed JJ",
         "occurrence": 5,
         "": ""
       },
@@ -36107,12 +36656,22 @@
         "": ""
       },
       {
+        "combo": "JJ Killed JJ",
+        "occurrence": 5,
+        "": ""
+      },
+      {
         "combo": "Josh Killed Ellum",
         "occurrence": 5,
         "": ""
       },
       {
         "combo": "JME Killed Josh",
+        "occurrence": 5,
+        "": ""
+      },
+      {
+        "combo": "Deji Killed Simon",
         "occurrence": 5,
         "": ""
       },
@@ -36127,48 +36686,8 @@
         "": ""
       },
       {
-        "combo": "Deji Killed Simon",
-        "occurrence": 5,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed Deji",
-        "occurrence": 4,
-        "": ""
-      },
-      {
-        "combo": "Ellum Killed Josh",
-        "occurrence": 4,
-        "": ""
-      },
-      {
-        "combo": "Ellum Killed Simon",
-        "occurrence": 4,
-        "": ""
-      },
-      {
-        "combo": "Harry Killed JJ",
-        "occurrence": 4,
-        "": ""
-      },
-      {
-        "combo": "Harry Killed Lachlan",
-        "occurrence": 4,
-        "": ""
-      },
-      {
-        "combo": "Harry Killed Lazarbeam",
-        "occurrence": 4,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed Viz",
-        "occurrence": 4,
-        "": ""
-      },
-      {
         "combo": "Deji Killed Lazarbeam",
-        "occurrence": 4,
+        "occurrence": 5,
         "": ""
       },
       {
@@ -36188,6 +36707,41 @@
       },
       {
         "combo": "DannyAarons Killed DannyAarons",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed Deji",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "Ellum Killed Josh",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "Ellum Killed Simon",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "Harry Killed Lachlan",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "Harry Killed Lazarbeam",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "Harry Killed JJ",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed Viz",
         "occurrence": 4,
         "": ""
       },
@@ -36222,16 +36776,6 @@
         "": ""
       },
       {
-        "combo": "Lachlan Killed Lachlan",
-        "occurrence": 4,
-        "": ""
-      },
-      {
-        "combo": "Lachlan Killed Tobi",
-        "occurrence": 4,
-        "": ""
-      },
-      {
         "combo": "Lazarbeam Killed Josh",
         "occurrence": 4,
         "": ""
@@ -36242,12 +36786,17 @@
         "": ""
       },
       {
-        "combo": "Lazarbeam Killed Deji",
+        "combo": "Lachlan Killed Tobi",
         "occurrence": 4,
         "": ""
       },
       {
-        "combo": "Vik Killed Deji",
+        "combo": "Lazarbeam Killed Viz",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "Viz Killed Randolph",
         "occurrence": 4,
         "": ""
       },
@@ -36262,37 +36811,7 @@
         "": ""
       },
       {
-        "combo": "Viz Killed Randolph",
-        "occurrence": 4,
-        "": ""
-      },
-      {
-        "combo": "Simon Killed Deji",
-        "occurrence": 4,
-        "": ""
-      },
-      {
-        "combo": "Simon Killed Ellum",
-        "occurrence": 4,
-        "": ""
-      },
-      {
-        "combo": "Randolph Killed Vik",
-        "occurrence": 4,
-        "": ""
-      },
-      {
-        "combo": "PieFace Killed Vik",
-        "occurrence": 4,
-        "": ""
-      },
-      {
-        "combo": "Randolph Killed Ethan",
-        "occurrence": 4,
-        "": ""
-      },
-      {
-        "combo": "Randolph Killed Lazarbeam",
+        "combo": "Vik Killed Deji",
         "occurrence": 4,
         "": ""
       },
@@ -36307,12 +36826,52 @@
         "": ""
       },
       {
+        "combo": "PieFace Killed Josh",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "PieFace Killed Vik",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "Randolph Killed Ethan",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "Randolph Killed Vik",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "Randolph Killed Lazarbeam",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "Simon Killed Deji",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "Simon Killed Ellum",
+        "occurrence": 4,
+        "": ""
+      },
+      {
+        "combo": "Tobi Killed ArthurTV",
+        "occurrence": 3,
+        "": ""
+      },
+      {
         "combo": "Tobi Killed JME",
         "occurrence": 3,
         "": ""
       },
       {
-        "combo": "Tobi Killed ArthurTV",
+        "combo": "Simon Killed ChrisMD",
         "occurrence": 3,
         "": ""
       },
@@ -36327,7 +36886,7 @@
         "": ""
       },
       {
-        "combo": "Simon Killed ChrisMD",
+        "combo": "Vik Killed DannyAarons",
         "occurrence": 3,
         "": ""
       },
@@ -36347,22 +36906,7 @@
         "": ""
       },
       {
-        "combo": "Vik Killed DannyAarons",
-        "occurrence": 3,
-        "": ""
-      },
-      {
-        "combo": "Lazarbeam Killed DannyAarons",
-        "occurrence": 3,
-        "": ""
-      },
-      {
-        "combo": "Lachlan Killed Vik",
-        "occurrence": 3,
-        "": ""
-      },
-      {
-        "combo": "Lachlan Killed Harry",
+        "combo": "Vik Killed PieFace",
         "occurrence": 3,
         "": ""
       },
@@ -36372,17 +36916,27 @@
         "": ""
       },
       {
-        "combo": "Lazarbeam Killed Viz",
+        "combo": "Lachlan Killed Vik",
         "occurrence": 3,
         "": ""
       },
       {
-        "combo": "PieFace Killed Josh",
+        "combo": "Lazarbeam Killed DannyAarons",
+        "occurrence": 3,
+        "": ""
+      },
+      {
+        "combo": "Lachlan Killed Harry",
         "occurrence": 3,
         "": ""
       },
       {
         "combo": "JME Killed JJ",
+        "occurrence": 3,
+        "": ""
+      },
+      {
+        "combo": "Harry Killed Randolph",
         "occurrence": 3,
         "": ""
       },
@@ -36397,6 +36951,11 @@
         "": ""
       },
       {
+        "combo": "Josh Killed Ginge",
+        "occurrence": 3,
+        "": ""
+      },
+      {
         "combo": "Josh Killed Lachlan",
         "occurrence": 3,
         "": ""
@@ -36407,7 +36966,27 @@
         "": ""
       },
       {
-        "combo": "Josh Killed Ginge",
+        "combo": "Ginge Killed DannyAarons",
+        "occurrence": 3,
+        "": ""
+      },
+      {
+        "combo": "Harry Killed DannyAarons",
+        "occurrence": 3,
+        "": ""
+      },
+      {
+        "combo": "Ellum Killed Tobi",
+        "occurrence": 3,
+        "": ""
+      },
+      {
+        "combo": "Ellum Killed Ethan",
+        "occurrence": 3,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed PieFace",
         "occurrence": 3,
         "": ""
       },
@@ -36437,27 +37016,7 @@
         "": ""
       },
       {
-        "combo": "DannyAarons Killed Callux",
-        "occurrence": 3,
-        "": ""
-      },
-      {
-        "combo": "Ginge Killed DannyAarons",
-        "occurrence": 3,
-        "": ""
-      },
-      {
-        "combo": "Harry Killed DannyAarons",
-        "occurrence": 3,
-        "": ""
-      },
-      {
-        "combo": "Harry Killed Randolph",
-        "occurrence": 3,
-        "": ""
-      },
-      {
-        "combo": "Ellum Killed Tobi",
+        "combo": "Deji Killed Ethan",
         "occurrence": 3,
         "": ""
       },
@@ -36467,108 +37026,8 @@
         "": ""
       },
       {
-        "combo": "Ellum Killed Ethan",
+        "combo": "DannyAarons Killed Callux",
         "occurrence": 3,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed PieFace",
-        "occurrence": 3,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed Ciaran",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Ellum Killed Harry",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Ellum Killed JJ",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Ellum Killed PieFace",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Ellum Killed Randolph",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Ellum Killed Vik",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed Apex",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed Callux",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed Chip",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Harry Killed JME",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Harry Killed Ginge",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Harry Killed ChrisMD",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "George Clarkey Killed Ethan",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "George Clarkey Killed George Clarkey",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "George Clarkey Killed Lazarbeam",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Ginge Killed Tobi",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Ginge Killed Vik",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Ginge Killed Ethan",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Ginge Killed JJ",
-        "occurrence": 2,
         "": ""
       },
       {
@@ -36617,17 +37076,17 @@
         "": ""
       },
       {
-        "combo": "Deji Killed Lachlan",
-        "occurrence": 2,
-        "": ""
-      },
-      {
         "combo": "Deji Killed MaxFosh",
         "occurrence": 2,
         "": ""
       },
       {
-        "combo": "Deji Killed Ethan",
+        "combo": "Deji Killed PieFace",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Deji Killed Lachlan",
         "occurrence": 2,
         "": ""
       },
@@ -36648,6 +37107,101 @@
       },
       {
         "combo": "DannyAarons Killed Ellum",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed Ciaran",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Ellum Killed Harry",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Ellum Killed JJ",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Ellum Killed PieFace",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Ellum Killed Randolph",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Ellum Killed Vik",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed Apex",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed Callux",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed Chip",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Harry Killed Ginge",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Harry Killed JME",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Ginge Killed Ethan",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Ginge Killed JJ",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Harry Killed ChrisMD",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "George Clarkey Killed Ethan",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "George Clarkey Killed George Clarkey",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "George Clarkey Killed Lazarbeam",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Ginge Killed Tobi",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Ginge Killed Vik",
         "occurrence": 2,
         "": ""
       },
@@ -36687,6 +37241,11 @@
         "": ""
       },
       {
+        "combo": "JJ Killed Joe Weller",
+        "occurrence": 2,
+        "": ""
+      },
+      {
         "combo": "JJ Killed Calfreezy",
         "occurrence": 2,
         "": ""
@@ -36707,17 +37266,22 @@
         "": ""
       },
       {
-        "combo": "JJ Killed Joe Weller",
-        "occurrence": 2,
-        "": ""
-      },
-      {
         "combo": "JJ Killed PieFace",
         "occurrence": 2,
         "": ""
       },
       {
-        "combo": "PieFace Killed Lachlan",
+        "combo": "Kay Killed Harry",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Lachlan Killed Callux",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Lachlan Killed Muselk",
         "occurrence": 2,
         "": ""
       },
@@ -36747,26 +37311,6 @@
         "": ""
       },
       {
-        "combo": "MaxFosh Killed Harry",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Kay Killed Harry",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Lachlan Killed Callux",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Lachlan Killed Muselk",
-        "occurrence": 2,
-        "": ""
-      },
-      {
         "combo": "Lazarbeam Killed Ginge",
         "occurrence": 2,
         "": ""
@@ -36777,7 +37321,7 @@
         "": ""
       },
       {
-        "combo": "Vik Killed JME",
+        "combo": "MaxFosh Killed Harry",
         "occurrence": 2,
         "": ""
       },
@@ -36792,7 +37336,22 @@
         "": ""
       },
       {
-        "combo": "Vik Killed PieFace",
+        "combo": "Viz Killed Deji",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Viz Killed JJ",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Viz Killed Viz",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Vik Killed JME",
         "occurrence": 2,
         "": ""
       },
@@ -36803,71 +37362,6 @@
       },
       {
         "combo": "Tobi Killed Tobi",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "TommyInnit Killed Simon",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Viz Killed JJ",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Viz Killed Deji",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Randolph Killed DannyAarons",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Simon Killed Calfreezy",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "PieFace Killed JJ",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "PieFace Killed Tobi",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Randolph Killed Ginge",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "PieFace Killed Viz",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Randolph Killed Lachlan",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Simon Killed MilkInABag",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Tobi Killed Ciaran",
-        "occurrence": 2,
-        "": ""
-      },
-      {
-        "combo": "Tobi Killed DannyAarons",
         "occurrence": 2,
         "": ""
       },
@@ -36887,32 +37381,67 @@
         "": ""
       },
       {
-        "combo": "Tobi Killed Ginge",
-        "occurrence": 1,
+        "combo": "TommyInnit Killed Simon",
+        "occurrence": 2,
         "": ""
       },
       {
-        "combo": "Tobi Killed Jynxzi",
-        "occurrence": 1,
+        "combo": "PieFace Killed JJ",
+        "occurrence": 2,
         "": ""
       },
       {
-        "combo": "Tobi Killed Dream",
-        "occurrence": 1,
+        "combo": "PieFace Killed Tobi",
+        "occurrence": 2,
         "": ""
       },
       {
-        "combo": "Tobi Killed Joe Weller",
-        "occurrence": 1,
+        "combo": "PieFace Killed Lachlan",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Randolph Killed Ginge",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "PieFace Killed Viz",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Randolph Killed Lachlan",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Randolph Killed DannyAarons",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Simon Killed Calfreezy",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Tobi Killed Ciaran",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Tobi Killed DannyAarons",
+        "occurrence": 2,
+        "": ""
+      },
+      {
+        "combo": "Simon Killed MilkInABag",
+        "occurrence": 2,
         "": ""
       },
       {
         "combo": "Simon Killed Simon",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Simon Killed MaxFosh",
         "occurrence": 1,
         "": ""
       },
@@ -36932,12 +37461,42 @@
         "": ""
       },
       {
+        "combo": "Tobi Killed Dream",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Tobi Killed Joe Weller",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Simon Killed Jarvis",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Simon Killed MaxFosh",
+        "occurrence": 1,
+        "": ""
+      },
+      {
         "combo": "Simon Killed Wilbur",
         "occurrence": 1,
         "": ""
       },
       {
         "combo": "Theo Killed Harry",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Theo Killed Josh",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Theo Killed Lazarbeam",
         "occurrence": 1,
         "": ""
       },
@@ -36957,6 +37516,16 @@
         "": ""
       },
       {
+        "combo": "Simon Killed Callux",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Simon Killed Chandler",
+        "occurrence": 1,
+        "": ""
+      },
+      {
         "combo": "Randolph Killed MilkInABag",
         "occurrence": 1,
         "": ""
@@ -36968,26 +37537,6 @@
       },
       {
         "combo": "Randolph Killed Randolph",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Randolph Killed Callux",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Simon Killed Callux",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Simon Killed Chandler",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Simon Killed Jarvis",
         "occurrence": 1,
         "": ""
       },
@@ -37007,57 +37556,17 @@
         "": ""
       },
       {
-        "combo": "Viz Killed Ginge",
+        "combo": "Randolph Killed Callux",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "Vik Killed Wilbur",
+        "combo": "PieFace Killed Lazarbeam",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "Viz Killed ArthurTV",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Viz Killed ChrisMD",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Viz Killed Lachlan",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Viz Killed MaxFosh",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Viz Killed Viz",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Wilbur Killed Josh",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "WillNE Killed ChrisMD",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "WillNE Killed Ethan",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "WillNE Killed Harry",
+        "combo": "PieFace Killed PieFace",
         "occurrence": 1,
         "": ""
       },
@@ -37102,22 +37611,22 @@
         "": ""
       },
       {
+        "combo": "Tobi Killed Ginge",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Tobi Killed Jynxzi",
+        "occurrence": 1,
+        "": ""
+      },
+      {
         "combo": "TommyInnit Killed Ethan",
         "occurrence": 1,
         "": ""
       },
       {
         "combo": "TommyInnit Killed Harry",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Vik Killed MilkInABag",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Vik Killed Liam",
         "occurrence": 1,
         "": ""
       },
@@ -37137,82 +37646,62 @@
         "": ""
       },
       {
-        "combo": "Lazarbeam Killed Randolph",
+        "combo": "Wilbur Killed Josh",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "Lazarbeam Killed Lazarbeam",
+        "combo": "WillNE Killed ChrisMD",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "Lazarbeam Killed MaxFosh",
+        "combo": "WillNE Killed Ethan",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "Lazarbeam Killed Muselk",
+        "combo": "WillNE Killed Harry",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "Lazarbeam Killed Fresh",
+        "combo": "Viz Killed Lachlan",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "Lazarbeam Killed George Clarkey",
+        "combo": "Viz Killed MaxFosh",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "Lazarbeam Killed Jynxzi",
+        "combo": "Viz Killed Ginge",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "Lachlan Killed PieFace",
+        "combo": "Vik Killed Wilbur",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "Lachlan Killed Viz",
+        "combo": "Viz Killed ArthurTV",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "Lazarbeam Killed Callux",
+        "combo": "Viz Killed ChrisMD",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "Lachlan Killed ChrisMD",
+        "combo": "Vik Killed MilkInABag",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "Lachlan Killed DannyAarons",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Kay Killed Jarvis",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Kay Killed Vik",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Lachlan Killed JME",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Lachlan Killed Ellum",
+        "combo": "Vik Killed Liam",
         "occurrence": 1,
         "": ""
       },
@@ -37252,17 +37741,17 @@
         "": ""
       },
       {
+        "combo": "Lazarbeam Killed Randolph",
+        "occurrence": 1,
+        "": ""
+      },
+      {
         "combo": "MaxFosh Killed Deji",
         "occurrence": 1,
         "": ""
       },
       {
         "combo": "MaxFosh Killed Ethan",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "MilkInABag Killed Ethan",
         "occurrence": 1,
         "": ""
       },
@@ -37322,22 +37811,107 @@
         "": ""
       },
       {
-        "combo": "PieFace Killed Lazarbeam",
+        "combo": "MilkInABag Killed Ethan",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "PieFace Killed PieFace",
+        "combo": "Lachlan Killed PieFace",
         "occurrence": 1,
         "": ""
       },
       {
-        "combo": "JJ Killed Jynxzi",
+        "combo": "Lachlan Killed Theo",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Lachlan Killed ChrisMD",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Lachlan Killed DannyAarons",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Kay Killed Jarvis",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Kay Killed Vik",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Lachlan Killed JME",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Lachlan Killed Ellum",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Lazarbeam Killed Fresh",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Lazarbeam Killed George Clarkey",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Lachlan Killed Viz",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Lazarbeam Killed Callux",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Lazarbeam Killed Lazarbeam",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Lazarbeam Killed MaxFosh",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Lazarbeam Killed Muselk",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Lazarbeam Killed Jynxzi",
         "occurrence": 1,
         "": ""
       },
       {
         "combo": "JJ Killed Theo",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "JJ Killed MaxFosh",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "JJ Killed Muselk",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "JJ Killed Pewdiepie",
         "occurrence": 1,
         "": ""
       },
@@ -37357,22 +37931,12 @@
         "": ""
       },
       {
+        "combo": "JJ Killed Jynxzi",
+        "occurrence": 1,
+        "": ""
+      },
+      {
         "combo": "JJ Killed JME",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "JJ Killed MaxFosh",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "JJ Killed Muselk",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "JJ Killed Pewdiepie",
         "occurrence": 1,
         "": ""
       },
@@ -37442,17 +38006,167 @@
         "": ""
       },
       {
-        "combo": "Josh Killed Jarvis",
-        "occurrence": 1,
-        "": ""
-      },
-      {
         "combo": "Josh Killed Dream",
         "occurrence": 1,
         "": ""
       },
       {
+        "combo": "Josh Killed Jarvis",
+        "occurrence": 1,
+        "": ""
+      },
+      {
         "combo": "Josh Killed Fresh",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ginge Killed Viz",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Harry Killed ArthurTV",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Harry Killed Calfreezy",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ginge Killed JME",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ginge Killed Josh",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ginge Killed Jynxzi",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed WillNE",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Fresh Killed Josh",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Fresh Killed Lazarbeam",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Fresh Killed Randolph",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Fresh Killed Vik",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Harry Killed Jarvis",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Harry Killed PieFace",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Harry Killed Kay",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Harry Killed Viz",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "JackSepticEye Killed Ethan",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "JackSepticEye Killed Josh",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "JackSepticEye Killed Vik",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Jarvis Killed Harry",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed ChrisMD",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed Calfreezy",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ellum Killed Viz",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ellum Killed Ellum",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ellum Killed JME",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed Ellum",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed Finn",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed Ginge",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed Jarvis",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed Theo",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Ethan Killed Liam",
         "occurrence": 1,
         "": ""
       },
@@ -37477,22 +38191,12 @@
         "": ""
       },
       {
-        "combo": "Deji Killed Ginge",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Deji Killed PieFace",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Ellum Killed Ellum",
-        "occurrence": 1,
-        "": ""
-      },
-      {
         "combo": "Deji Killed Ciaran",
+        "occurrence": 1,
+        "": ""
+      },
+      {
+        "combo": "Deji Killed Ginge",
         "occurrence": 1,
         "": ""
       },
@@ -37625,146 +38329,6 @@
         "combo": "DannyAarons Killed ChrisMD",
         "occurrence": 1,
         "": ""
-      },
-      {
-        "combo": "Ginge Killed JME",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Ginge Killed Josh",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Ginge Killed Jynxzi",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed WillNE",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Fresh Killed Josh",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Fresh Killed Lazarbeam",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Fresh Killed Randolph",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Fresh Killed Vik",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Ginge Killed Viz",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Harry Killed ArthurTV",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Harry Killed Calfreezy",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Harry Killed Jarvis",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Harry Killed Kay",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Harry Killed PieFace",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Harry Killed Viz",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "JackSepticEye Killed Ethan",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "JackSepticEye Killed Josh",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "JackSepticEye Killed Vik",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Jarvis Killed Harry",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed ChrisMD",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed Calfreezy",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Ellum Killed Viz",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Ellum Killed JME",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed Ellum",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed Finn",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed Ginge",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed Jarvis",
-        "occurrence": 1,
-        "": ""
-      },
-      {
-        "combo": "Ethan Killed Liam",
-        "occurrence": 1,
-        "": ""
       }
     ]
   },
@@ -37800,6 +38364,13 @@
         "": ""
       },
       {
+        "impostercombination": "Lazarbeam, Vik",
+        "numberofgames": 6,
+        "wins": 4,
+        "win%": 67,
+        "": ""
+      },
+      {
         "impostercombination": "Josh, Simon",
         "numberofgames": 6,
         "wins": 3,
@@ -37829,13 +38400,6 @@
       },
       {
         "impostercombination": "Lachlan, Simon",
-        "numberofgames": 5,
-        "wins": 3,
-        "win%": 60,
-        "": ""
-      },
-      {
-        "impostercombination": "Lazarbeam, Vik",
         "numberofgames": 5,
         "wins": 3,
         "win%": 60,
@@ -37961,6 +38525,13 @@
         "": ""
       },
       {
+        "impostercombination": "Ethan, Tobi",
+        "numberofgames": 4,
+        "wins": 2,
+        "win%": 50,
+        "": ""
+      },
+      {
         "impostercombination": "Harry, Josh",
         "numberofgames": 4,
         "wins": 1,
@@ -38010,13 +38581,6 @@
         "": ""
       },
       {
-        "impostercombination": "JJ, Randolph",
-        "numberofgames": 3,
-        "wins": 0,
-        "win%": 0,
-        "": ""
-      },
-      {
         "impostercombination": "Harry, Simon",
         "numberofgames": 3,
         "wins": 2,
@@ -38045,7 +38609,7 @@
         "": ""
       },
       {
-        "impostercombination": "Lazarbeam, Tobi",
+        "impostercombination": "JJ, Randolph",
         "numberofgames": 3,
         "wins": 0,
         "win%": 0,
@@ -38053,13 +38617,6 @@
       },
       {
         "impostercombination": "Ethan, Viz",
-        "numberofgames": 3,
-        "wins": 2,
-        "win%": 67,
-        "": ""
-      },
-      {
-        "impostercombination": "Ethan, Tobi",
         "numberofgames": 3,
         "wins": 2,
         "win%": 67,
@@ -38112,6 +38669,13 @@
         "numberofgames": 3,
         "wins": 3,
         "win%": 100,
+        "": ""
+      },
+      {
+        "impostercombination": "Lazarbeam, Tobi",
+        "numberofgames": 3,
+        "wins": 0,
+        "win%": 0,
         "": ""
       },
       {
@@ -38178,17 +38742,17 @@
         "": ""
       },
       {
-        "impostercombination": "Ellum, Randolph",
-        "numberofgames": 2,
-        "wins": 0,
-        "win%": 0,
-        "": ""
-      },
-      {
         "impostercombination": "Deji, Simon",
         "numberofgames": 2,
         "wins": 2,
         "win%": 100,
+        "": ""
+      },
+      {
+        "impostercombination": "Ellum, Randolph",
+        "numberofgames": 2,
+        "wins": 0,
+        "win%": 0,
         "": ""
       },
       {
@@ -38262,13 +38826,6 @@
         "": ""
       },
       {
-        "impostercombination": "Harry, PieFace",
-        "numberofgames": 2,
-        "wins": 2,
-        "win%": 100,
-        "": ""
-      },
-      {
         "impostercombination": "JJ, MilkInABag",
         "numberofgames": 2,
         "wins": 2,
@@ -38280,6 +38837,13 @@
         "numberofgames": 2,
         "wins": 1,
         "win%": 50,
+        "": ""
+      },
+      {
+        "impostercombination": "Harry, PieFace",
+        "numberofgames": 2,
+        "wins": 2,
+        "win%": 100,
         "": ""
       },
       {
@@ -38381,6 +38945,13 @@
         "": ""
       },
       {
+        "impostercombination": "Harry, Lachlan",
+        "numberofgames": 1,
+        "wins": 0,
+        "win%": 0,
+        "": ""
+      },
+      {
         "impostercombination": "Harry, MrBeast",
         "numberofgames": 1,
         "wins": 1,
@@ -38388,7 +38959,7 @@
         "": ""
       },
       {
-        "impostercombination": "Harry, Lachlan",
+        "impostercombination": "Theo, Vik",
         "numberofgames": 1,
         "wins": 0,
         "win%": 0,
@@ -38458,6 +39029,13 @@
         "": ""
       },
       {
+        "impostercombination": "PieFace, Theo, Tobi",
+        "numberofgames": 1,
+        "wins": 0,
+        "win%": 0,
+        "": ""
+      },
+      {
         "impostercombination": "PieFace, Vik",
         "numberofgames": 1,
         "wins": 0,
@@ -38466,6 +39044,13 @@
       },
       {
         "impostercombination": "MaxFosh, Randolph",
+        "numberofgames": 1,
+        "wins": 0,
+        "win%": 0,
+        "": ""
+      },
+      {
+        "impostercombination": "Lachlan, Tobi",
         "numberofgames": 1,
         "wins": 0,
         "win%": 0,
@@ -38500,6 +39085,13 @@
         "": ""
       },
       {
+        "impostercombination": "Josh, TommyInnit",
+        "numberofgames": 1,
+        "wins": 0,
+        "win%": 0,
+        "": ""
+      },
+      {
         "impostercombination": "Josh, Wilbur",
         "numberofgames": 1,
         "wins": 0,
@@ -38511,20 +39103,6 @@
         "numberofgames": 1,
         "wins": 1,
         "win%": 100,
-        "": ""
-      },
-      {
-        "impostercombination": "Lachlan, Tobi",
-        "numberofgames": 1,
-        "wins": 0,
-        "win%": 0,
-        "": ""
-      },
-      {
-        "impostercombination": "Josh, TommyInnit",
-        "numberofgames": 1,
-        "wins": 0,
-        "win%": 0,
         "": ""
       },
       {
@@ -38570,6 +39148,13 @@
         "": ""
       },
       {
+        "impostercombination": "Ethan, Simon, Viz",
+        "numberofgames": 1,
+        "wins": 1,
+        "win%": 100,
+        "": ""
+      },
+      {
         "impostercombination": "Ethan, Lazarbeam, Simon",
         "numberofgames": 1,
         "wins": 1,
@@ -38584,7 +39169,14 @@
         "": ""
       },
       {
-        "impostercombination": "Ethan, Simon, Viz",
+        "impostercombination": "Ethan, Jynxzi",
+        "numberofgames": 1,
+        "wins": 0,
+        "win%": 0,
+        "": ""
+      },
+      {
+        "impostercombination": "Ethan, Kay",
         "numberofgames": 1,
         "wins": 1,
         "win%": 100,
@@ -38605,21 +39197,7 @@
         "": ""
       },
       {
-        "impostercombination": "Ellum, Josh, Randolph",
-        "numberofgames": 1,
-        "wins": 0,
-        "win%": 0,
-        "": ""
-      },
-      {
-        "impostercombination": "Ellum, Ethan",
-        "numberofgames": 1,
-        "wins": 1,
-        "win%": 100,
-        "": ""
-      },
-      {
-        "impostercombination": "Ellum, JJ",
+        "impostercombination": "Ethan, Harry, JJ",
         "numberofgames": 1,
         "wins": 1,
         "win%": 100,
@@ -38647,21 +39225,28 @@
         "": ""
       },
       {
-        "impostercombination": "Ethan, Harry, JJ",
+        "impostercombination": "Deji, Theo",
         "numberofgames": 1,
         "wins": 1,
         "win%": 100,
         "": ""
       },
       {
-        "impostercombination": "Ethan, Jynxzi",
+        "impostercombination": "Ellum, Josh, Randolph",
         "numberofgames": 1,
         "wins": 0,
         "win%": 0,
         "": ""
       },
       {
-        "impostercombination": "Ethan, Kay",
+        "impostercombination": "Ellum, Ethan",
+        "numberofgames": 1,
+        "wins": 1,
+        "win%": 100,
+        "": ""
+      },
+      {
+        "impostercombination": "Ellum, JJ",
         "numberofgames": 1,
         "wins": 1,
         "win%": 100,
