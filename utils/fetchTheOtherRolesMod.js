@@ -43,6 +43,14 @@ export const fetchOtherRolesMod = async () => {
     fs.writeFileSync(jsonPath, JSON.stringify(roles, null, 2));
     console.log(`Roles data saved to ${jsonPath}`);
     
+    // Clean up the README file after processing
+    try {
+      fs.unlinkSync(outputFile);
+      console.log(`Deleted temporary README file: ${outputFile}`);
+    } catch (cleanupError) {
+      console.warn(`Warning: Could not delete temporary README file: ${cleanupError.message}`);
+    }
+    
     return roles;
 
   } catch (error) {
@@ -92,6 +100,38 @@ const downloadFile = (url, outputPath) => {
 };
 
 /**
+ * Clean up markdown formatting from a string
+ * @param {string} text - The markdown text to clean
+ * @returns {string} - Cleaned text
+ */
+function cleanMarkdown(text) {
+  if (!text) return '';
+  
+  // Remove markdown headers (###, ##, etc.)
+  let cleaned = text.replace(/^#{1,6}\s+/gm, '');
+  
+  // Remove bold/italic formatting
+  cleaned = cleaned.replace(/\*\*([^*]+)\*\*/g, '$1'); // Bold
+  cleaned = cleaned.replace(/\*([^*]+)\*/g, '$1');     // Italic
+  cleaned = cleaned.replace(/__([^_]+)__/g, '$1');     // Bold
+  cleaned = cleaned.replace(/_([^_]+)_/g, '$1');       // Italic
+  
+  // Remove backslashes used for line breaks in markdown
+  cleaned = cleaned.replace(/\\$/gm, '');
+  
+  // Remove "Team: X" prefixes
+  cleaned = cleaned.replace(/^Team: (Impostors|Impostor|Crewmates|Crewmate|Neutral|Neutral Killer).*$/gm, '');
+  
+  // Replace multiple newlines with a single newline
+  cleaned = cleaned.replace(/\n{3,}/g, '\n\n');
+  
+  // Trim whitespace
+  cleaned = cleaned.trim();
+  
+  return cleaned;
+}
+
+/**
  * Extract role information from the README.md content
  * @param {string} content - The content of the README.md file
  * @param {Object} roles - The roles object to populate
@@ -118,7 +158,7 @@ function extractRoles(content, roles) {
     if (line.match(/^## [A-Za-z\s\-]+$/) && !line.includes('Roles') && !line.includes('Settings') && !line.includes('Game Options')) {
       // If we were processing a role, save it before moving to the next
       if (currentRole && description && currentCategory) {
-        roles[currentCategory][currentRole] = description.trim();
+        roles[currentCategory][currentRole] = cleanMarkdown(description.trim());
       }
       
       // Start new role
@@ -160,7 +200,7 @@ function extractRoles(content, roles) {
   
   // Add the last role if there was one being processed
   if (currentRole && description && currentCategory) {
-    roles[currentCategory][currentRole] = description.trim();
+    roles[currentCategory][currentRole] = cleanMarkdown(description.trim());
   }
 }
 

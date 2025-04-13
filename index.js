@@ -20,9 +20,11 @@ let rolesDataCache = null;
 let rolesDataTimestamp = 0;
 let theOtherRolesDataCache = null;
 let theOtherRolesTimestamp = 0;
+let townOfUsRDataCache = null;
+let townOfUsRTimestamp = 0;
 
-// Cache expiry time (48 hours = 2 days)
-const CACHE_EXPIRY = 48*60*60*1000;
+// Cache expiry time (13 hours)
+const CACHE_EXPIRY = 13*60*60*1000;
 
 // Reset cache function for testing
 const resetCache = () => {
@@ -34,6 +36,8 @@ const resetCache = () => {
   rolesDataTimestamp = 0;
   theOtherRolesDataCache = null;
   theOtherRolesTimestamp = 0;
+  townOfUsRDataCache = null;
+  townOfUsRTimestamp = 0;
   console.log("All caches have been reset");
 }
 
@@ -57,6 +61,11 @@ try {
   if (fs.existsSync("roleInformation/theOtherRolesMod.json")) {
     theOtherRolesDataCache = JSON.parse(fs.readFileSync("roleInformation/theOtherRolesMod.json", "utf8"));
     theOtherRolesTimestamp = Date.now();
+  }
+
+  if (fs.existsSync("roleInformation/townOfUsRMod.json")) {
+    townOfUsRDataCache = JSON.parse(fs.readFileSync("roleInformation/townOfUsRMod.json", "utf8"));
+    townOfUsRTimestamp = Date.now();
   }
 } catch (error) {
   console.error("Error loading cache:", error);
@@ -141,6 +150,24 @@ const preloadRolesData = async () => {
     } else {
       console.log("Using existing TheOtherRoles data cache.");
     }
+    
+    // Preload Town Of Us R data
+    if (!townOfUsRDataCache || Date.now() - townOfUsRTimestamp >= CACHE_EXPIRY) {
+      console.log("Preloading Town Of Us R data...");
+      // Dynamically import the ESM module
+      const fetchTownOfUsRModule = await import('./utils/fetchTownOfUsRMod.js');
+      const townOfUsRData = await fetchTownOfUsRModule.fetchTownOfUsRMod();
+      
+      if (townOfUsRData) {
+        townOfUsRDataCache = townOfUsRData;
+        townOfUsRTimestamp = Date.now();
+        console.log("Town Of Us R data preloaded successfully.");
+      } else {
+        console.error("Preload failed: fetched Town Of Us R data is empty or invalid.");
+      }
+    } else {
+      console.log("Using existing Town Of Us R data cache.");
+    }
   } catch (err) {
     console.error("Error preloading roles data:", err);
   }
@@ -194,6 +221,9 @@ app.get("/api/reset-cache", (req, res) => {
     if (fs.existsSync("roleInformation/theOtherRolesMod.json")) {
       fs.unlinkSync("roleInformation/theOtherRolesMod.json");
     }
+    if (fs.existsSync("roleInformation/townOfUsRMod.json")) {
+      fs.unlinkSync("roleInformation/townOfUsRMod.json");
+    }
   } catch (error) {
     console.error("Error deleting cache files:", error);
   }
@@ -207,24 +237,29 @@ app.get("/api/roles", async (req,res) => {
     const cachesValid = rolesDataCache && 
                         Date.now() - rolesDataTimestamp < CACHE_EXPIRY &&
                         theOtherRolesDataCache && 
-                        Date.now() - theOtherRolesTimestamp < CACHE_EXPIRY;
+                        Date.now() - theOtherRolesTimestamp < CACHE_EXPIRY &&
+                        townOfUsRDataCache &&
+                        Date.now() - townOfUsRTimestamp < CACHE_EXPIRY;
     
     if (cachesValid) {
       console.log("Serving roles from cache");
       
-      // Combine all roles from both mods into a single structure
+      // Combine all roles from all mods into a single structure
       const combinedRoles = {
         crewmate: {
           ...rolesDataCache.crewmate,
-          ...theOtherRolesDataCache.crewmate
+          ...theOtherRolesDataCache.crewmate,
+          ...townOfUsRDataCache.crewmate
         },
         impostor: {
           ...rolesDataCache.impostor,
-          ...theOtherRolesDataCache.impostor
+          ...theOtherRolesDataCache.impostor,
+          ...townOfUsRDataCache.impostor
         },
         neutral: {
           ...rolesDataCache.neutral,
-          ...theOtherRolesDataCache.neutral
+          ...theOtherRolesDataCache.neutral,
+          ...townOfUsRDataCache.neutral
         }
       };
       
@@ -234,67 +269,113 @@ app.get("/api/roles", async (req,res) => {
     console.log("Fetching fresh roles data");
     const allTheRoles = await fetchAllTheRolesMod();
     
-    // Dynamically import the ESM module
+    // Dynamically import the ESM modules
     const fetchOtherRolesModule = await import('./utils/fetchTheOtherRolesMod.js');
     const theOtherRoles = await fetchOtherRolesModule.fetchOtherRolesMod();
     
-    if (allTheRoles && theOtherRoles) {
+    const fetchTownOfUsRModule = await import('./utils/fetchTownOfUsRMod.js');
+    const townOfUsRRoles = await fetchTownOfUsRModule.fetchTownOfUsRMod();
+    
+    // Check if all data fetching was successful
+    const allDataAvailable = allTheRoles && theOtherRoles && townOfUsRRoles;
+    
+    if (allDataAvailable) {
       // Update cache
       rolesDataCache = allTheRoles;
       rolesDataTimestamp = Date.now();
       theOtherRolesDataCache = theOtherRoles;
       theOtherRolesTimestamp = Date.now();
+      townOfUsRDataCache = townOfUsRRoles;
+      townOfUsRTimestamp = Date.now();
       
-      // Combine all roles from both mods into a single structure
+      // Combine all roles from all mods into a single structure
       const combinedRoles = {
         crewmate: {
           ...allTheRoles.crewmate,
-          ...theOtherRoles.crewmate
+          ...theOtherRoles.crewmate,
+          ...townOfUsRRoles.crewmate
         },
         impostor: {
           ...allTheRoles.impostor,
-          ...theOtherRoles.impostor
+          ...theOtherRoles.impostor,
+          ...townOfUsRRoles.impostor
         },
         neutral: {
           ...allTheRoles.neutral,
-          ...theOtherRoles.neutral
+          ...theOtherRoles.neutral,
+          ...townOfUsRRoles.neutral
         }
       };
       
       res.json(combinedRoles);
     } else {
-      res.status(500).json({ error: "Failed to fetch roles data" });
+      // If we couldn't fetch all data, return what we have
+      console.log("Some role data fetching failed, returning partial data");
+      
+      // Start with empty structure
+      const partialRoles = {
+        crewmate: {},
+        impostor: {},
+        neutral: {}
+      };
+      
+      // Add data from whatever sources succeeded
+      if (allTheRoles) {
+        partialRoles.crewmate = {...partialRoles.crewmate, ...allTheRoles.crewmate};
+        partialRoles.impostor = {...partialRoles.impostor, ...allTheRoles.impostor};
+        partialRoles.neutral = {...partialRoles.neutral, ...allTheRoles.neutral};
+      }
+      
+      if (theOtherRoles) {
+        partialRoles.crewmate = {...partialRoles.crewmate, ...theOtherRoles.crewmate};
+        partialRoles.impostor = {...partialRoles.impostor, ...theOtherRoles.impostor};
+        partialRoles.neutral = {...partialRoles.neutral, ...theOtherRoles.neutral};
+      }
+      
+      if (townOfUsRRoles) {
+        partialRoles.crewmate = {...partialRoles.crewmate, ...townOfUsRRoles.crewmate};
+        partialRoles.impostor = {...partialRoles.impostor, ...townOfUsRRoles.impostor};
+        partialRoles.neutral = {...partialRoles.neutral, ...townOfUsRRoles.neutral};
+      }
+      
+      res.json(partialRoles);
     }
   } catch (error) {
     console.error("Error fetching roles:", error);
     
     // Fallback to cached data if available
-    if (rolesDataCache && theOtherRolesDataCache) {
+    const cacheAvailable = rolesDataCache || theOtherRolesDataCache || townOfUsRDataCache;
+    
+    if (cacheAvailable) {
       console.log("Falling back to cached roles data");
       
-      // Combine all roles from both mods into a single structure
-      const combinedRoles = {
-        crewmate: {
-          ...rolesDataCache.crewmate,
-          ...theOtherRolesDataCache.crewmate
-        },
-        impostor: {
-          ...rolesDataCache.impostor,
-          ...theOtherRolesDataCache.impostor
-        },
-        neutral: {
-          ...rolesDataCache.neutral,
-          ...theOtherRolesDataCache.neutral
-        }
+      // Start with empty structure
+      const fallbackRoles = {
+        crewmate: {},
+        impostor: {},
+        neutral: {}
       };
       
-      return res.json(combinedRoles);
-    } else if (rolesDataCache) {
-      return res.json({
-        crewmate: rolesDataCache.crewmate,
-        impostor: rolesDataCache.impostor,
-        neutral: rolesDataCache.neutral
-      });
+      // Add data from whatever caches are available
+      if (rolesDataCache) {
+        fallbackRoles.crewmate = {...fallbackRoles.crewmate, ...rolesDataCache.crewmate};
+        fallbackRoles.impostor = {...fallbackRoles.impostor, ...rolesDataCache.impostor};
+        fallbackRoles.neutral = {...fallbackRoles.neutral, ...rolesDataCache.neutral};
+      }
+      
+      if (theOtherRolesDataCache) {
+        fallbackRoles.crewmate = {...fallbackRoles.crewmate, ...theOtherRolesDataCache.crewmate};
+        fallbackRoles.impostor = {...fallbackRoles.impostor, ...theOtherRolesDataCache.impostor};
+        fallbackRoles.neutral = {...fallbackRoles.neutral, ...theOtherRolesDataCache.neutral};
+      }
+      
+      if (townOfUsRDataCache) {
+        fallbackRoles.crewmate = {...fallbackRoles.crewmate, ...townOfUsRDataCache.crewmate};
+        fallbackRoles.impostor = {...fallbackRoles.impostor, ...townOfUsRDataCache.impostor};
+        fallbackRoles.neutral = {...fallbackRoles.neutral, ...townOfUsRDataCache.neutral};
+      }
+      
+      return res.json(fallbackRoles);
     }
     
     res.status(500).json({ error: "Failed to fetch roles" });

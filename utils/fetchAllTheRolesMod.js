@@ -3,6 +3,38 @@ import fs from "fs";
 import path from "path";
 import { rimraf } from "rimraf";
 
+/**
+ * Clean up markdown formatting from a string
+ * @param {string} text - The markdown text to clean
+ * @returns {string} - Cleaned text
+ */
+function cleanMarkdown(text) {
+  if (!text) return '';
+  
+  // Remove markdown headers (###, ##, etc.)
+  let cleaned = text.replace(/^#{1,6}\s+/gm, '');
+  
+  // Remove bold/italic formatting
+  cleaned = cleaned.replace(/\*\*([^*]+)\*\*/g, '$1'); // Bold
+  cleaned = cleaned.replace(/\*([^*]+)\*/g, '$1');     // Italic
+  cleaned = cleaned.replace(/__([^_]+)__/g, '$1');     // Bold
+  cleaned = cleaned.replace(/_([^_]+)_/g, '$1');       // Italic
+  
+  // Remove backslashes used for line breaks in markdown
+  cleaned = cleaned.replace(/\\$/gm, '');
+  
+  // Remove "Team: X" prefixes
+  cleaned = cleaned.replace(/^Team: (Impostors|Impostor|Crewmates|Crewmate|Neutral|Neutral Killer).*$/gm, '');
+  
+  // Replace multiple newlines with a single newline
+  cleaned = cleaned.replace(/\n{3,}/g, '\n\n');
+  
+  // Trim whitespace
+  cleaned = cleaned.trim();
+  
+  return cleaned;
+}
+
 export const fetchAllTheRolesMod = async () => {
   try {
     // Setup directories
@@ -101,7 +133,7 @@ function extractRoles(markdown) {
     if (line.startsWith('## ')) {
       // If we were processing a role, save it before moving to next
       if (currentRole && description) {
-        roles[currentRole] = description.trim();
+        roles[currentRole] = cleanMarkdown(description.trim());
       }
       
       // Start a new role
@@ -128,7 +160,7 @@ function extractRoles(markdown) {
   
   // Add the last role if there was one being processed
   if (currentRole && description) {
-    roles[currentRole] = description.trim();
+    roles[currentRole] = cleanMarkdown(description.trim());
   }
   
   return roles;
