@@ -24,7 +24,7 @@ let townOfUsRDataCache = null;
 let townOfUsRTimestamp = 0;
 
 // Cache expiry time (13 hours)
-const CACHE_EXPIRY = 13*60*60*1000;
+const CACHE_EXPIRY = 20*60*1000;
 
 // Reset cache function for testing
 const resetCache = () => {
